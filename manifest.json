@@ -1,0 +1,16 @@
+{
+  "short_name": "Poker",
+  "name": "Estimation Poker",
+  "icons": [
+    {
+      "src": "icons/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "?home",
+  "background_color": "#000",
+  "theme_color": "#000",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}

@@ -1,0 +1,40 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 2em;
+}
+button {
+  background: none;
+  color: #fff;
+  height: 20vmin;
+  width: 20vmin;
+  width: 20vw;
+  height: 20vh;
+  font-size: 10vmin;
+  font-family: inherit;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: auto;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  font-size: 50vmin;
+  backdrop-filter: blur(5px);
+}
