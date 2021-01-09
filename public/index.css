@@ -2,18 +2,20 @@ body {
   background: #000;
   color: #fff;
   font-family: "Rubik", sans-serif;
+  text-align: center;
 }
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   gap: 2em;
+  margin: auto;
 }
 button {
   background: none;
   color: #fff;
-  height: 20vmin;
-  width: 20vmin;
+  height: 20vw;
+  width: 20vw;
   width: 20vw;
   height: 20vh;
   font-size: 10vmin;
@@ -22,6 +24,7 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 button:focus-visible {
@@ -35,6 +38,6 @@ button:focus-visible {
   left: 0;
   width: 100vw;
   height: 100vh;
-  font-size: 50vmin;
+  font-size: 50vw;
   backdrop-filter: blur(5px);
 }
