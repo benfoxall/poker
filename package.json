@@ -26,6 +26,8 @@
   },
   "devDependencies": {
     "@snowpack/plugin-react-refresh": "^2.3.9",
+    "@snowpack/plugin-webpack": "^2.2.0",
+    "@types/dom-screen-wake-lock": "^1.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "workbox-cli": "^6.0.2"

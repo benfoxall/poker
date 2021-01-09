@@ -4,4 +4,10 @@ module.exports = {
     public: "/",
   },
   plugins: ["@snowpack/plugin-react-refresh"],
+  experiments: {
+    optimize: {
+      bundle: true,
+      minify: true,
+    },
+  },
 };
