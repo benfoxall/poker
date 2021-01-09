@@ -6,5 +6,5 @@ import {render} from "../web_modules/react-dom.js";
 import {App} from "./App.js";
 render(/* @__PURE__ */ React.createElement(App, null), document.getElementById("root"));
 if (import.meta.env.MODE === "production" && "serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/sw.js");
+  navigator.serviceWorker.register("sw.js");
 }
