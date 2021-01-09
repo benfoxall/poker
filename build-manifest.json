@@ -1,0 +1,131 @@
+{
+  "inputs": {
+    "index.css": {
+      "bytes": 700,
+      "imports": []
+    },
+    "__snowpack__/env.js": {
+      "bytes": 73,
+      "imports": []
+    },
+    "web_modules/common/index-e66f0a38.js": {
+      "bytes": 8994,
+      "imports": []
+    },
+    "web_modules/react.js": {
+      "bytes": 171,
+      "imports": [
+        {
+          "path": "web_modules/common/index-e66f0a38.js"
+        },
+        {
+          "path": "web_modules/common/index-e66f0a38.js"
+        }
+      ]
+    },
+    "web_modules/react-dom.js": {
+      "bytes": 127507,
+      "imports": [
+        {
+          "path": "web_modules/common/index-e66f0a38.js"
+        }
+      ]
+    },
+    "../node_modules/@emotion/memoize/dist/memoize.browser.cjs.js": {
+      "bytes": 260,
+      "imports": []
+    },
+    "../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.cjs.js": {
+      "bytes": 4557,
+      "imports": [
+        {
+          "path": "../node_modules/@emotion/memoize/dist/memoize.browser.cjs.js"
+        }
+      ]
+    },
+    "web_modules/framer-motion.js": {
+      "bytes": 294095,
+      "imports": [
+        {
+          "path": "web_modules/common/index-e66f0a38.js"
+        },
+        {
+          "path": "../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.cjs.js"
+        }
+      ]
+    },
+    "dist/App.js": {
+      "bytes": 883,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/framer-motion.js"
+        }
+      ]
+    },
+    "dist/index.js": {
+      "bytes": 777,
+      "imports": [
+        {
+          "path": "__snowpack__/env.js"
+        },
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-dom.js"
+        },
+        {
+          "path": "dist/App.js"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../node_modules/.cache/snowpack/~~bundle~~/index.css": {
+      "imports": [],
+      "inputs": {
+        "index.css": {
+          "bytesInOutput": 549
+        }
+      },
+      "bytes": 550
+    },
+    "../node_modules/.cache/snowpack/~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "../node_modules/@emotion/memoize/dist/memoize.browser.cjs.js": {
+          "bytesInOutput": 177
+        },
+        "../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.cjs.js": {
+          "bytesInOutput": 4284
+        },
+        "__snowpack__/env.js": {
+          "bytesInOutput": 56
+        },
+        "web_modules/common/index-e66f0a38.js": {
+          "bytesInOutput": 7148
+        },
+        "web_modules/react.js": {
+          "bytesInOutput": 18
+        },
+        "web_modules/react-dom.js": {
+          "bytesInOutput": 123905
+        },
+        "web_modules/framer-motion.js": {
+          "bytesInOutput": 87424
+        },
+        "dist/App.js": {
+          "bytesInOutput": 394
+        },
+        "dist/index.js": {
+          "bytesInOutput": 438
+        }
+      },
+      "bytes": 224769
+    }
+  }
+}
