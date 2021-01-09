@@ -7,7 +7,7 @@ export const App = () => {
   const [selected, setSelected] = useState<string>(null);
 
   return (
-    <AnimateSharedLayout type="crossfade">
+    <AnimateSharedLayout>
       <nav>
         {points.map((n) => (
           <motion.button
@@ -24,6 +24,7 @@ export const App = () => {
       <AnimatePresence>
         {selected && (
           <motion.button
+            key={selected}
             onClick={() => setSelected(null)}
             layoutId={selected}
             className="overlay"

@@ -24,8 +24,8 @@ button {
   cursor: pointer;
 }
 
-button:focus {
-  /* outline: auto; */
+button:focus-visible {
+  outline: auto;
 }
 
 .overlay {
@@ -36,4 +36,5 @@ button:focus {
   width: 100vw;
   height: 100vh;
   font-size: 50vmin;
+  backdrop-filter: blur(5px);
 }
