@@ -1,7 +1,7 @@
 body {
   background: #000;
   color: #fff;
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 nav {
   display: grid;
@@ -14,23 +14,26 @@ button {
   color: #fff;
   height: 20vmin;
   width: 20vmin;
-  font-size: 2em;
-  border-radius: 0.5em;
+  width: 20vw;
+  height: 20vh;
+  font-size: 10vmin;
+  font-family: inherit;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:focus {
+  /* outline: auto; */
 }
 
 .overlay {
   background: rgba(0, 0, 0, 0.9);
   position: fixed;
   top: 0;
-  right: 0;
   left: 0;
-  bottom: 0;
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-}
-
-.overlay {
-  transform: scale(3);
+  width: 100vw;
+  height: 100vh;
+  font-size: 50vmin;
 }

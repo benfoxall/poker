@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/benfoxall/poker#readme",
   "dependencies": {
+    "framer-motion": "^3.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "snowpack": "^3.0.0-rc.2"
