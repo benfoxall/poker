@@ -1,0 +1,36 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 2em;
+}
+button {
+  background: none;
+  color: #fff;
+  height: 20vmin;
+  width: 20vmin;
+  font-size: 2em;
+  border-radius: 0.5em;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  transform: scale(3);
+}
