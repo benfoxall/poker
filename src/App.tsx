@@ -14,9 +14,8 @@ export const App = () => {
             key={n}
             layoutId={n}
             onClick={() => setSelected(n)}
+            whileTap={{ scale: 0.5 }}
             animate={{ scale: 1 }}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 1 }}
           >
             {n}
           </motion.button>
@@ -29,6 +28,7 @@ export const App = () => {
             onClick={() => setSelected(null)}
             layoutId={selected}
             className="overlay"
+            animate={{ scale: 1 }}
           >
             {selected}
           </motion.button>
