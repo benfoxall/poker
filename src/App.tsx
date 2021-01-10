@@ -9,13 +9,15 @@ export const App = () => {
   return (
     <AnimateSharedLayout>
       <nav>
-        {points.map((n) => (
+        {points.map((n, i) => (
           <motion.button
             key={n}
             layoutId={n}
             onClick={() => setSelected(n)}
             whileTap={{ scale: 0.5 }}
-            animate={{ scale: 1 }}
+            animate={{ scale: selected ? 0.4 : 1 }}
+            initial={{ scale: 0 }}
+            transition={{ delay: i / 30 }}
           >
             {n}
           </motion.button>
