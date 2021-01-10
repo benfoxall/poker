@@ -53,7 +53,7 @@ button:focus-visible {
   position: fixed;
   top: calc(50vh - 1em);
   left: calc(50vw - 1em);
-  font-size: 5em;
+  font-size: 6em;
 }
 
 .overlay-bg {
