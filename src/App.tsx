@@ -14,6 +14,7 @@ export const App = () => {
             key={n}
             layoutId={n}
             onClick={() => setSelected(n)}
+            animate={{ scale: 1 }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1 }}
           >
@@ -31,6 +32,17 @@ export const App = () => {
           >
             {selected}
           </motion.button>
+        )}
+      </AnimatePresence>
+      <AnimatePresence>
+        {selected && (
+          <motion.div
+            className="overlay-bg"
+            animate={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelected(null)}
+          ></motion.div>
         )}
       </AnimatePresence>
     </AnimateSharedLayout>
