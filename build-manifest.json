@@ -1,7 +1,7 @@
 {
   "inputs": {
     "index.css": {
-      "bytes": 700,
+      "bytes": 900,
       "imports": []
     },
     "__snowpack__/env.js": {
@@ -55,7 +55,7 @@
       ]
     },
     "dist/App.js": {
-      "bytes": 883,
+      "bytes": 1180,
       "imports": [
         {
           "path": "web_modules/react.js"
@@ -88,10 +88,10 @@
       "imports": [],
       "inputs": {
         "index.css": {
-          "bytesInOutput": 549
+          "bytesInOutput": 644
         }
       },
-      "bytes": 550
+      "bytes": 645
     },
     "../node_modules/.cache/snowpack/~~bundle~~/dist/index.js": {
       "imports": [],
@@ -119,13 +119,13 @@
           "bytesInOutput": 87424
         },
         "dist/App.js": {
-          "bytesInOutput": 394
+          "bytesInOutput": 566
         },
         "dist/index.js": {
           "bytesInOutput": 438
         }
       },
-      "bytes": 224769
+      "bytes": 224941
     }
   }
 }
