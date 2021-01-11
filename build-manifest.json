@@ -1,7 +1,7 @@
 {
   "inputs": {
     "index.css": {
-      "bytes": 1053,
+      "bytes": 1120,
       "imports": []
     },
     "__snowpack__/env.js": {
@@ -88,10 +88,10 @@
       "imports": [],
       "inputs": {
         "index.css": {
-          "bytesInOutput": 824
+          "bytesInOutput": 879
         }
       },
-      "bytes": 825
+      "bytes": 880
     },
     "../node_modules/.cache/snowpack/~~bundle~~/dist/index.js": {
       "imports": [],
